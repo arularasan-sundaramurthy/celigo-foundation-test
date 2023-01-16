@@ -1,0 +1,10 @@
+apiVersion: v2
+name: cluster-autoscaler
+type: application
+version: 9.21.1
+appVersion: 1.23.0
+dependencies:
+- name: cluster-autoscaler
+  version: 9.21.1
+  appVersion: 1.23.0
+  repository: https://raw.githubusercontent.com/celigo/foundational-layers-helm-charts/gh-pages/

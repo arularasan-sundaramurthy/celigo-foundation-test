@@ -1,0 +1,10 @@
+apiVersion: v2
+name: base
+type: application
+version: 1.15.3
+appVersion: 1.15.3
+dependencies:
+- name: base
+  version: 1.15.3
+  appVersion: 1.15.3
+  repository: https://raw.githubusercontent.com/celigo/foundational-layers-helm-charts/gh-pages/

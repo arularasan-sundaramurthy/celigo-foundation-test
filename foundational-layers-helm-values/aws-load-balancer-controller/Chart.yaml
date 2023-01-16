@@ -1,0 +1,10 @@
+apiVersion: v2
+name: aws-load-balancer-controller
+type: application
+version: 1.4.6
+appVersion: v2.4.5
+dependencies:
+- name: aws-load-balancer-controller
+  version: 1.4.6
+  appVersion: v2.4.5
+  repository: https://raw.githubusercontent.com/celigo/foundational-layers-helm-charts/gh-pages/

@@ -1,0 +1,10 @@
+apiVersion: v2
+name: aws-ebs-csi-driver
+type: application
+version: 2.14.1
+appVersion: 1.14.0
+dependencies:
+- name: aws-ebs-csi-driver
+  version: 2.14.1
+  appVersion: 1.14.0
+  repository: https://raw.githubusercontent.com/celigo/foundational-layers-helm-charts/gh-pages/

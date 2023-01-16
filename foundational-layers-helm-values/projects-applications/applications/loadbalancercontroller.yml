@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: aws-load-balancer-controller
+  namespace: argocd
+spec:
+  project: foundationlayer
+  source:
+    repoURL: 'https://github.com/celigo/foundational-layers-helm-values'
+    path: aws-load-balancer-controller
+    targetRevision: HEAD
+    helm:
+      releaseName: aws-load-balancer-controller
+      valueFiles:
+        - values.yaml
+  destination:
+    server: 'https://kubernetes.default.svc'
+    namespace: kube-system
+  syncPolicy:
+    automated: {}

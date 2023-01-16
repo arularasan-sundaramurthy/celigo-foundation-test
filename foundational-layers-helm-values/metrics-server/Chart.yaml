@@ -1,0 +1,10 @@
+apiVersion: v2
+name: metrics-server
+type: application
+version: 3.8.3
+appVersion: 0.6.2
+dependencies:
+- name: metrics-server
+  version: 3.8.3
+  appVersion: 0.6.2
+  repository: https://raw.githubusercontent.com/celigo/foundational-layers-helm-charts/gh-pages/

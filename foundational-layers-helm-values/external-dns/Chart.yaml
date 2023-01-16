@@ -1,0 +1,10 @@
+apiVersion: v2
+name: external-dns
+type: application
+version: 1.12.0
+appVersion: 0.13.1
+dependencies:
+- name: external-dns
+  version: 1.12.0
+  appVersion: 0.13.1
+  repository: https://raw.githubusercontent.com/celigo/foundational-layers-helm-charts/gh-pages/
